@@ -17,7 +17,7 @@ def linear_search(list: list, target: int) -> int | None:
     return None
 
 
-def verify(index: int):
+def verify(index: int) -> None:
     """Verifies if number was found in a list or not.
 
     Args:
